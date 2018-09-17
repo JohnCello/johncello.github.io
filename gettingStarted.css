@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.tutorialID {
+	visibility: hidden;
+}
+
+.tutorialHeading {
+	visibility: hidden;
+}
+
+.tutorialNumber {
+	visibility: hidden;
+}
+
+.discussion {
+	font-family:"Times New Roman", Times, serif;
+    font-size: 28pt;
+    color: #000000;
+    font-weight: normal;
+	font-style: italic;
+    text-align: left;
+    padding: 20px;
+	margin-top: 0px;
+    margin-bottom: 60px;
+
+	width: 90%;
+    height: 100%;
+    background-color: #ffffcf;
+    box-shadow: 10px 10px 5px #888888;
+    border-bottom-left-radius: 50px;
+	
+	clear: both;
+}
+
+.result {
+	font-family:"Times New Roman", Times, serif;
+    font-size: 28pt;
+    color: #000000
+    font-weight: bolder;
+	font-style: italic;
+    text-align: left;
+    padding: 20px;
+    margin-bottom: 10px;
+
+	width: 90%;
+    height: 100%;
+    background-color: #78ffff;
+    box-shadow: 10px 10px 5px #888888;
+	border-radius: 50px;
+}
+
+.special {
+	font-family:"Times New Roman", Times, serif;
+    font-size: 24pt;
+    color:	#000000;
+	font-style: italic;
+    text-align: left;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+
+	width: 90%;
+    height: 100%;
+    background-color: #00FF00;
+    box-shadow: 10px 10px 5px #888888;
+	border-radius: 50px;
+}
+
+.instruction {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    color: #000000;
+    font-weight: normal;
+	font-style:!important;
+    text-align: left;
+    padding: 4px;
+    margin-bottom: 30px;
+}
+
+.tap {
+    color: #FF0000;
+    display: inline-block;
+	font-size:inherit;
+	font-family:inherit;
+}
+
+.action {
+	font-style:!important;
+    color: #00a8ff;
+    display: inline-block;
+	font-size:inherit;
+	font-family:inherit;
+}
+
+.userText {
+    color: #666;
+    display: inline-block;
+	font-size:inherit;
+	font-family:inherit;
+	font-style:italic;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.tdclass {
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 20pt;
+	color: #434343;	
+	word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin-bottom: 40px;
+}
+
+img {
+    padding: 4px 4px 4px 4px;
+}
+
+.toc {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 36px;
+	font-style: oblique;
+	margin: 40px;
+	line-height: 44pt;
+}
+
+img.inline1 { display:inline-block; align: top; width: 10%; height: 30% padding: 10px; }
+img.inline2 { float: left; align: top; width: 30%; padding: 10px; }
+.group:after { content: ""; display: table; clear: both; }
